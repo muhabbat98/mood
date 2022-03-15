@@ -47,7 +47,11 @@ const App = () => {
             component={HistoryScreen}
             options={{title: "Yesterday's mood"}}
           />
-          <Tablet.Screen name={'Analitics'} component={AnaliticScreen} />
+          <Tablet.Screen
+            name={'Analitics'}
+            component={AnaliticScreen}
+            options={{title: 'Fancy chart'}}
+          />
         </Tablet.Navigator>
       </MoodProvider>
     </NavigationContainer>
